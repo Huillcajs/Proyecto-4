@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.inicio{
+    margin-top: 50px;
+    text-align: center;
+}
+.inicio ,h1{
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+.usuario {
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    padding-left: 5px;
+}
+.contraseña {
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    padding-left: 5px;
+}
+.ingresa{
+    text-align: center;
+    width: 10%;
+    color: white;
+    background: rgb(63, 63, 156);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+
+}
+.registro{
+    text-align: center;
+    width: 15%;
+    font-size: 15px;
+    color: white;
+    background: rgb(93, 138, 25);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+}
+a , .regresar{
+    text-decoration: none;
+}

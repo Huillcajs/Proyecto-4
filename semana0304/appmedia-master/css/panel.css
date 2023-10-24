@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    width: 100%;
+    height: 100px;
+    background: #42e6d8;
+    color: #fff;
+    position: relative;
+    left: 0;
+    
+}
+header img{
+    background: black;
+}
+header .contenedor{
+    text-align: center;
+    display: table;
+}
+header .contenedor{
+    display: inline-block;
+    line-height: 10px;
+
+}
+header .contenedor {
+    text-align: center;
+    margin-left:100px;
+}
+header .contenedor p{
+    text-align: center;
+    margin: 20px 100px;
+}
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+#general .contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#genearl article{
+    margin: 15px;
+}
+#general .uno{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin-top: 1xp;
+}
+#general .uno img{
+    margin-left: 20px;
+    width: 180px;
+    height: 200px;
+}
+#general .uno a{
+    border-radius: 5px;
+    height: 25px;
+    background: lightseagreen;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-left: 30px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#general .dos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+#general .dos div{
+    margin: 5px;
+}
+#general .dos img{
+    background: black;
+    border-radius: 100%;
+}
+#general .dos .P1 {
+    height: 60px;
+    text-decoration: none;
+    border: 3px solid black;
+}
+#general .dos .P1 a{
+    margin-left:20% ;
+}
+#general .dos .P3 {
+    background: #ccc4c4;
+}
+#general .tres{
+    height: 40px;
+    background-color: #42e6d8;
+    width: 10%;
+}
+
+
